@@ -1,38 +1,69 @@
-# Em Turner's Portfolio
+# Portfolio
+
+My portfolio contains a selection of the projects I have worked on during my career and the finished documentation associated with each project.
+
+## PayPal
+
+### Package tracking API guide
+
+I wrote documentation to help add the option to track packages when creating an order using the PayPal REST API. I worked collaboratively with a stakeholder from the engineering team to research this feature, understand how it works, and get the right API calls in the right order.
+
+[Integrate package tracking](https://developer.paypal.com/docs/tracking/orders-api/integrate/)
+
+### Verify with PayPal
+
+
+[Integrate Verify with PayPal](https://developer.paypal.com/limited-release/verify-with-paypal/)
+
+## VMware
+
+### Savings automator
+
+Technical documentation to accompany the savings automator feature in CloudHealth. The release of this feature was around the same time as the cost anomaly detection release, so I had to manage tight deadlines to get both done in time. Worked closely with the team developing this feature to research, draft, review, and publish documentation.
+
+[Savings automator documentation](https://docs.vmware.com/en/VMware-Tanzu-CloudHealth/SaaS/using-and-managing-vmware-tanzu-cloudhealth/GUID-savings-automator.html)
+
+### Cost anomaly detection 
+
+Technical documentation to accompany the cost anomaly detection feature in CloudHealth. The release of this feature was around the same time as the savings automator release, so I had to manage tight deadlines to get both done in time. Worked closely with the team developing this feature to research, draft, review, and publish documentation.
+
+[Cost anomaly detection documentation](https://docs.vmware.com/en/VMware-Tanzu-CloudHealth/SaaS/using-and-managing-vmware-tanzu-cloudhealth/GUID-anomaly-detection.html)
 
 ## Dell EMC
-While at Dell EMC, I have had the chance to work on a variety of products. My two primary products are Dell EMC Unity and PowerStore, both midrange storage offerings.
 
-Dell EMC Unity was released in 2016, and is the first product launch I experienced at Dell EMC. I worked primarily on hardware documentation for the duration of Unity's product lifecycle, but I also worked on release notes, command-line interface documentation, service command documentation, and UnityVSA (a virtualized version of the Unity product) product documentation.
+While at Dell EMC, my 2 primary products were Dell EMC Unity and PowerStore, both midrange storage offerings.
 
-PowerStore launched in 2020 as Dell EMC's next-generation storage offering. I worked on hardware documentation for PowerStore as well, but shifted focus to other software features to ensure I didn't get too specialized as a hardware writer. I also started working on videos during the PowerStore product lifecycle, and created six videos to support the release.
+Dell EMC Unity was released in 2016, and was the first product launch I went through at Dell EMC. I worked primarily on hardware documentation for the product lifecycle, but I also worked on release notes, command-line interface documentation, service command documentation, and UnityVSA (a virtualized version of the Unity product) product documentation.
 
-When I wasn't working on my main products, I contributed to a number of internal initiatives and participated in our employee resource groups. One of the biggest and most successful initiatives I worked on was the effort to unify the Dell and EMC style guides after our big merger completed in 2016. I also spent two years as the North Carolina site lead for the Pride employee resource group. 
+PowerStore launched in 2020 as Dell EMC's next-generation storage offering. I worked on hardware documentation for PowerStore as well, but shifted focus to other software features to ensure I didn't get too specialized as a hardware writer. I also started working on videos during the PowerStore product lifecycle, and created 6 videos to support the release.
 
 ### PowerStore and Unity Quick Start Guides
-These guides are printed documents that ship with new hardware. They outline the simplest, quickest method to get the new system installed and running.
 
-PowerStore Quick Start Guide: https://downloads.dell.com/manuals/common/pwrstr-qsg_en-us.pdf
-
-Unity XT Quick Start Guide: https://www.dellemc.com/en-us/collaterals/unauth/technical-guides-support-information/products/storage/docu94615.pdf
+These guides are printed documents that ship with new hardware. They outline the simplest, quickest method to get the new system installed and running:
+- [PowerStore Quick Start Guide](https://downloads.dell.com/manuals/common/pwrstr-qsg_en-us.pdf)
+- [Unity XT Quick Start Guide](https://www.dellemc.com/en-us/collaterals/unauth/technical-guides-support-information/products/storage/docu94615.pdf)
 
 #### PowerStore Quick Start Video
+
 I also developed a video of the content in the Quick Start Guide. Due to COVID-19, the original plans to take video footage of an actual installation were scrapped. Instead, I created the video using animations of the graphics in the document.
 
-https://www.youtube.com/watch?v=yXRBsXAgICU&list=PLbssOJyyvHuW3fklJqJi3jjhgpr0xQdEk
+[PowerStore Quick Start Video](https://www.youtube.com/watch?v=yXRBsXAgICU&list=PLbssOJyyvHuW3fklJqJi3jjhgpr0xQdEk)
 
 ### PowerStore - Protecting Your Data
-Protecting Your Data is a document intended to help a customer learn about and take advantage of data protection technologies such as replication, thin cloning, and snapshots.
 
-https://www.dell.com/support/manuals/us/en/04/powerstore/pwrstr-protect-data
+This document helps a customer learn about and take advantage of data protection technologies such as replication, thin cloning, and snapshots.
+
+[Protecting Your Data](https://www.dell.com/support/manuals/us/en/04/powerstore/pwrstr-protect-data)
 
 #### Video: What's the Difference Between Refreshing and Restoring Snapshots?
+
 While writing the Protecting Your Data document, I often found myself struggling to differentiate between the snapshot refresh operation and the snapshot restore operation. Sensing that our customers may struggle with this differentiation as well, I developed this video to make the distinction clear.
 
-https://www.youtube.com/watch?v=c_9OJ2otSmI&list=PLbssOJyyvHuW3fklJqJi3jjhgpr0xQdEk
+[What's the difference between refreshing and restoring snapshots?](https://www.youtube.com/watch?v=c_9OJ2otSmI&list=PLbssOJyyvHuW3fklJqJi3jjhgpr0xQdEk)
 
 ### PowerStore - Installation and Service Guide
-Because PowerStore uses brand new hardware, we needed to develop new replacement procedures to help customers install the system, or replace failed parts. I collaborated with other team members to create the Installation and Service Guide. This guide required many trips to the lab to try out and test replacement procedures, working with engineering teams to learn prerequisites for replacements, and working with an illustrator to ensure our graphics reflected the actual hardware.
+
+Because PowerStore used brand new hardware, we needed to develop new replacement procedures to help customers install the system, or replace failed parts. I collaborated with other team members to create the Installation and Service Guide. This guide required many trips to the lab to try out and test replacement procedures, working with engineering teams to learn prerequisites for replacements, and working with an illustrator to ensure our graphics reflected the actual hardware.
 
 https://www.dell.com/support/manuals/us/en/04/powerstore/pwrstr-isg
 
@@ -40,20 +71,3 @@ https://www.dell.com/support/manuals/us/en/04/powerstore/pwrstr-isg
 This guide provides a detailed look at the Unity XT platform. Similar to the PowerStore Installation and Service Guide, this was a heavily collaborative document.
 
 https://www.dellemc.com/en-us/collaterals/unauth/technical-guides-support-information/products/storage/docu94617.pdf
-
-#### Presentations and conferences
-One of my passions is education, and there is no easier way to educate than to deliver presentations. I have created a number of internal and external presentations through my involvement in the Pride employee resource group at Dell. I was also a speaker at the Out and Equal Workplace Summit in 2019. 
-
-## Personal
-I'm always looking for ways to keep my writing skills honed, even while enjoying my hobbies.
-
-### Visual novel project
-I am currently in the process of writing a visual novel in Ren'Py, a modified Python language specific to visual novel creation. I am collaborating with friends and using GitHub to make sure we're all working from the latest version. This project is still in its very early stages, but learning Ren'Py has been exciting for me.
-
-### StrategyWiki and BGWiki
-While playing through older Final Fantasy games, I found myself getting stuck often, but the guides that were available online were incomplete or unclear. Starting with Final Fantasy III, I cleaned up and clarified walkthrough text.
-
-You can see my contributions to StrategyWiki here:
-https://strategywiki.org/wiki/Special:Contributions/CommonWriterE
-
-During my playthrough of Final Fantasy XI in 2020 I relied heavily on the FFXI-specific BGWiki for information and help. I found and corrected minor errors as I went through the game.
