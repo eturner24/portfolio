@@ -6,9 +6,7 @@ My area of expertise is language and writing. I'm a strong writer who has been w
 
 My personal strength is building relationships. As a technical writer, I rarely just sit alone and write - I regularly need to meet with stakeholders and other team members to get information. Because these stakeholders are key to getting work done, I take the time to get to know my stakeholders, what kinds of interests they have, and how we can work best together. As a result, my connections at work help me get information from a wider variety of sources, which in turn make my documentation much more complete.
 
-Wondering what my work looks like? You can:
-- [Take a look at my portolio]()
-- [Request a personalized writing sample]()
+Wondering what my work looks like? [Take a look at my portfolio](portfolio.md).
 
 ## Senior Technical Writer and Editor, PayPal Developer (September 2022 – current)
 
@@ -74,3 +72,24 @@ My favorite part of working at Dell was working in our structured authoring envi
 - Created 6 how-to videos of top customer issues. The most popular video received nearly 20k views, with 1k of views happening in the first month of publication.
 - Built and published publications in SDL Publication Manager to PDF and HTML5 online help outputs.
 
+## Other experience
+
+These are not technical writing roles, but some of the skills and responsibilities may be of interest.
+
+### Associate Proposal Specialist, SciQuest (July 2015 - October 2015)
+
+- Lead proposal projects
+- Meet with stakeholders to get answers to questions on proposals
+- Write and compile responses for commonly asked questions
+- Manage proposal deadlines and ensure project members deliver assignments on time
+- Copyedit completed assignments for grammar, formatting and professional voice
+
+### Business Writing Intern, Giva (May 2015 - July 2015)
+
+Research and write new content to publish on Giva's blog, covering topics such as HIPAA compliance, customer support, and cloud technologies.
+
+### Editorial Intern, The Escapist Magazine (August 2014 - December 2014)
+
+- Write and copy edited news stories
+- Transcribe interviews
+- Format stories in HTML

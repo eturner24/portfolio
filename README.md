@@ -1,2 +1,10 @@
-# Em's portfolio
-A collection of documentation and other personal projects.
+# Em Turner - Senior Technical Writer
+
+Thanks for taking a look at my portfolio. You can learn more about me in the following locations:
+- [Experience](resume.md)
+- [Education and other qualifications](education-other.md)
+- [Portfolio](portfolio.md)
+
+## Why don't I have any contributions on GitHub?
+
+I know how it looks: you asked for my GitHub profile, but I don't have any contributions. Most of my work on GitHub is done over a private, restricted GitHub Enterprise account. This account is a personal account, so I have far fewer contributions here. Since you're here, why not take a look at my [portfolio](portfolio.md) instead?
