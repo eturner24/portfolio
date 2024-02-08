@@ -1,4 +1,4 @@
-# Em Turner - Senior Technical Writer
+# Em Turner - Senior Technical Writer and Editor
 
 Thanks for taking a look at my portfolio. You can learn more about me in the following locations:
 - [Experience](resume.md)
