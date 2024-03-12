@@ -6,7 +6,7 @@ My area of expertise is language and writing. I'm a strong writer who has been w
 
 My personal strength is building relationships. As a technical writer, I rarely just sit alone and write - I regularly need to meet with stakeholders and other team members to get information. Because these stakeholders are key to getting work done, I take the time to get to know my stakeholders, what kinds of interests they have, and how we can work best together. As a result, my connections at work help me get information from a wider variety of sources, which in turn make my documentation much more complete.
 
-Wondering what my work looks like? [Take a look at my portfolio](portfolio.md).
+Wondering what my work looks like? [Take a look at my portfolio](Portfolio.md).
 
 ## Senior Technical Writer and Editor, PayPal Developer (September 2022 – February 2024)
 
