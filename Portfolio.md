@@ -72,3 +72,21 @@ https://www.dell.com/support/manuals/us/en/04/powerstore/pwrstr-isg
 This guide provides a detailed look at the Unity XT platform. Similar to the PowerStore Installation and Service Guide, this was a heavily collaborative document.
 
 https://www.dellemc.com/en-us/collaterals/unauth/technical-guides-support-information/products/storage/docu94617.pdf
+
+## Personal
+
+I've published a few pieces to vocal.media. [Check out my work here](https://vocal.media/authors/em-turner).
+
+### The Fight to Preserve a Mainline Final Fantasy Game
+
+https://vocal.media/gamers/the-fight-to-preserve-a-mainline-final-fantasy-game
+
+I wrote this piece shortly after finishing Final Fantasy XI. I loved the game so much and wanted more people to play it, but also acknowledged its high barrier to entry. I wrote this piece as an attempt to distill my strong feelings into words and persuade others interested in Final Fantasy games to give it a try.
+
+### Processing
+
+https://vocal.media/families/processing
+
+I wrote this piece as part of a Vocal competition. The competition tasked writers with creating a piece that featured or included a little black notebook as part of the short story.
+
+Before I wrote this, I had read an article about wealth, and was interested in exploring what the life of someone who is far richer than I can imagine is like. In looking back, my character feels somewhat stereotypical and I should have expanded more on scenes outside of the processing ritual. Overall though, I felt that I accomplished what I wanted: to show that death and grief impact us all the same.
