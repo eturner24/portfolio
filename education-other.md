@@ -14,17 +14,30 @@ My overall GPA was 3.8. Within my major, my GPA was a 4.0.
 
 While at NC State, I volunteered at the college radio station, WKNC. At first I only deejayed and helped operate the board during baseball games, but eventually I learned how to edit and record audio. Because of this, I landed a more permanent position at the station as a Production Manager, where I recorded donor announcements and public service announcements and edited the Eye on the Triangle podcast.
 
+## Volunteering
+
+I enjoy getting involved in my local community, and have volunteered with multiple organizations throughout the years.
+
+### Diaper Bank of North Carolina
+
+When I worked at Dell, I was introduced to the Diaper Bank of NC through our internal Gives Back program. My first volunteer experience was so positive, that I quickly became an ambassador for the Diaper Bank, organizing diaper drives and volunteer events with them regularly.
+
+Since being laid off in early 2024, I have spent more time volunteering at the Diaper Bank. I try to go at least once a week as a way to put my extra time to good use.
+
 ## Pride employee resource group (ERG)
 
 During my time at both Dell and VMware, I was heavily involved with the Pride employee resource group to help LGBTQIA+ employees feel welcome and supported at work. 
 
 ### VMware
 
-Communications co-lead for VMware employee resource group
+Communications co-lead for VMware employee resource group.
+
+One of the biggest deliverables I worked on for the VMware Pride group was an Executive Sponsor Playbook. This playbook explained what an executive sponsor is, who is eligible to be an executive sponsor, and what is expected of someone in this role.
 
 ### Dell
 
-Site lead - North Carolina for Pride employee resource group
+Site lead for North Carolina for Pride employee resource group.
+
 
 ## Presentations and conferences
 

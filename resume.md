@@ -1,20 +1,22 @@
 # Experience
 
-I am an experienced technical content developer with nearly 9 years of experience, developing technical content such as hardware installation guides, SaaS product guides, quick start guides, user manuals, video scripts, REST API guides and GraphQL guides for tech companies.
+I am an experienced technical content developer with nearly 9 years of experience, developing technical content such as hardware installation guides, SaaS product guides, quick start guides, user manuals, video scripts, REST API guides and GraphQL guides for large tech companies.
 
-My area of expertise is language and writing. I'm a strong writer who has been writing ever since I learned how to put a pen to paper. Combining my love of writing and technology, technical writing is a career path that I'm passionate about. In my career as a technical writer, I have specialized in crafting customer-facing documentation that helps users get started quickly and succeed.
+My area of expertise is language and writing. I'm a strong writer who has been writing ever since I learned how to put a pen to paper. Combining my love of writing and technology, technical writing is a career path that I'm passionate about. In my career as a technical writer, I have specialized in crafting customer-facing documentation that helps users get started quickly and succeed. 
 
 My personal strength is building relationships. As a technical writer, I rarely just sit alone and write - I regularly need to meet with stakeholders and other team members to get information. Because these stakeholders are key to getting work done, I take the time to get to know my stakeholders, what kinds of interests they have, and how we can work best together. As a result, my connections at work help me get information from a wider variety of sources, which in turn make my documentation much more complete.
 
 Wondering what my work looks like? [Take a look at my portfolio](portfolio.md).
 
-## Senior Technical Writer and Editor, PayPal Developer (September 2022 – current)
+## Senior Technical Writer and Editor, PayPal Developer (September 2022 – February 2024)
 
 I joined PayPal as a Senior Technical Editor, excited to put my skills in tech comm to use across the entire PayPal REST API documentation portfolio. As an editor, I don't just look for typos and style issues - Grammarly can do that for us. Where I add value as an editor is looking across our documentation set and identifying ways we can connect the gaps in our documentation story. I also look for ways we can reuse content and apply smarter content strategy, just like I did when I was working at Dell.
 
-Because my editorial duties don't take up enough time for a full time job, I also spend half my time as a technical writer, picking up any work that our other writers can't fit in. I've worked on integration guides for new features such as tracking packages and complete doc overhauls such as our getting started guide.
+Because my editorial duties didn't take up enough time for a full-time job, I also spent half my time as a technical writer, picking up any work that our other writers can't fit in. I worked on integration guides for new features such as tracking packages and complete doc overhauls such as our getting started guide.
 
-My favorite part of working at PayPal is the unique position I have as an editor that lets me lead the team alongside them. I have regular 1:1s with each writer on my team, and editorial office hours with the broader team to help develop writing skills. I facilitate a line of communication between my manager and my team that my writers may normally be nervous about opening, and I have been called the glue of my team for this work.
+My favorite part of working at PayPal was the unique position I had as an editor that let me lead the team alongside them. I had regular 1:1s with each writer on my team, and editorial office hours with the broader team to help develop writing skills. I facilitated a line of communication between my manager and my team that my writers may normally be nervous about opening, and I have been called the glue of my team for this work.
+
+I was laid off in early 2024 as part of a broader restructuring effort within PayPal. 
 
 ### Main responsibilities
 
@@ -56,7 +58,7 @@ I also had the opportunity to spend time working with the UX team and improve my
 
 ## Technical Writer 2, Dell EMC (October 2015 - October 2020)
 
-I started my career with EMC in 2015. Shortly after I joined, I went through the then-largest tech merger in history when Dell bought EMC. During my tenure at Dell, I learned the basics of technical communication, including content strategy, information architecture, and implementing reuse, variables, and conditioning to author content efficiently. 
+I started my career with EMC in 2015. Shortly after I joined, I went through the then-largest tech merger in history when Dell bought EMC. During my tenure at Dell, I learned the basics of technical communication, including DITA, content strategy, information architecture, and implementing reuse, variables, and conditioning to author content efficiently. 
 
 My favorite part of working at Dell was working in our structured authoring environment based around DITA XML. I was always looking for ways to reuse content, which helps save time on authoring brand new docs, reduces translation costs, and keeps common content in docs consistent.
 
