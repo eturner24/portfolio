@@ -4,6 +4,8 @@ My portfolio contains a selection of the projects I have worked on during my car
 
 ## PayPal
 
+I was primarily an editor at PayPal, but I continued to work as a writer whenever possible to ensure I kept my writing skills up to snuff. 
+
 ### Package tracking API guide
 
 I wrote documentation to help add the option to track packages when creating an order using the PayPal REST API. I worked collaboratively with a stakeholder from the engineering team to research this feature, understand how it works, and get the right API calls in the right order.
@@ -11,7 +13,6 @@ I wrote documentation to help add the option to track packages when creating an 
 [Integrate package tracking](https://developer.paypal.com/docs/tracking/orders-api/integrate/)
 
 ### Verify with PayPal
-
 
 [Integrate Verify with PayPal](https://developer.paypal.com/limited-release/verify-with-paypal/)
 
