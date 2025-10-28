@@ -2,6 +2,14 @@
 
 My portfolio contains a selection of the projects I have worked on during my career and the finished documentation associated with each project.
 
+## Red Hat
+
+I work on OpenShift AI. If you've ever read the model serving documentation, you've read my work. 
+
+- [Managing and monitoring models](https://docs.redhat.com/en/documentation/red_hat_openshift_ai_self-managed/latest/html/managing_and_monitoring_models/index)
+- [Deploying models](https://docs.redhat.com/en/documentation/red_hat_openshift_ai_self-managed/latest/html/deploying_models/index)
+- [Configuring your model serving platform](https://docs.redhat.com/en/documentation/red_hat_openshift_ai_self-managed/latest/html/configuring_your_model-serving_platform/index)
+
 ## PayPal
 
 I was primarily an editor at PayPal, but I continued to work as a writer whenever possible to ensure I kept my writing skills up to snuff. 

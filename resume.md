@@ -8,6 +8,15 @@ My personal strength is building relationships. As a technical writer, I rarely 
 
 Wondering what my work looks like? [Take a look at my portfolio](Portfolio.md).
 
+## Senior Technical Writer, Red Hat (May 2024 - current)
+
+I am currently a Senior Technical Writer at Red Hat, working on the OpenShift AI product. If you've ever read the model serving documentation, you've read my work. 
+
+- Write and edit technical documentation in Asciidoc.
+- Work with cross-functional stakeholders and attend meetings to learn about new features and update documentation.
+- Mentor and onboard new writers and summer interns to the team.
+- Play with AI tooling and find ways to incorporate it into my workflow.
+
 ## Senior Technical Writer and Editor, PayPal Developer (September 2022 – February 2024)
 
 I joined PayPal as a Senior Technical Editor, excited to put my skills in tech comm to use across the entire PayPal REST API documentation portfolio. As an editor, I don't just look for typos and style issues - Grammarly can do that for us. Where I add value as an editor is looking across our documentation set and identifying ways we can connect the gaps in our documentation story. I also look for ways we can reuse content and apply smarter content strategy, just like I did when I was working at Dell.
