@@ -1,6 +1,6 @@
 # Experience
 
-I am an experienced technical content developer with nearly 9 years of experience, developing technical content such as hardware installation guides, SaaS product guides, quick start guides, user manuals, video scripts, REST API guides and GraphQL guides for large tech companies.
+I am an experienced technical content developer with 10 years of experience, developing technical content such as hardware installation guides, SaaS product guides, quick start guides, user manuals, video scripts, REST API guides and GraphQL guides for large tech companies.
 
 My area of expertise is language and writing. I'm a strong writer who has been writing ever since I learned how to put a pen to paper. Combining my love of writing and technology, technical writing is a career path that I'm passionate about. In my career as a technical writer, I have specialized in crafting customer-facing documentation that helps users get started quickly and succeed. 
 

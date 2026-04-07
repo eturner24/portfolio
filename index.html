@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Em Turner - Senior Technical Writer</title>
+  <style>
+    :root {
+      --text: #1a1a2e;
+      --text-light: #4a4a6a;
+      --accent: #2d6a4f;
+      --accent-light: #40916c;
+      --bg: #fafafa;
+      --card-bg: #ffffff;
+      --border: #e0e0e0;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.6;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: var(--accent-light);
+      text-decoration: underline;
+    }
+
+    /* Header */
+    header {
+      background: var(--text);
+      color: #fff;
+      padding: 3rem 1.5rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.4rem;
+      font-weight: 700;
+      margin-bottom: 0.3rem;
+    }
+
+    header p.tagline {
+      font-size: 1.15rem;
+      color: #b0b0c8;
+      margin-bottom: 1.2rem;
+    }
+
+    .contact-links {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+    }
+
+    .contact-links a {
+      color: #a8dadc;
+      font-size: 0.95rem;
+    }
+
+    .contact-links a:hover {
+      color: #fff;
+    }
+
+    /* Nav */
+    nav {
+      background: var(--card-bg);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 0.5rem;
+      padding: 0.6rem 1rem;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      padding: 0.4rem 1rem;
+      border-radius: 4px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: var(--text-light);
+      transition: background 0.2s;
+    }
+
+    nav a:hover {
+      background: #eef5f0;
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    /* Main */
+    main {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem 4rem;
+    }
+
+    section {
+      margin-bottom: 3rem;
+    }
+
+    h2 {
+      font-size: 1.6rem;
+      color: var(--accent);
+      border-bottom: 2px solid var(--accent);
+      padding-bottom: 0.3rem;
+      margin-bottom: 1.2rem;
+    }
+
+    h3 {
+      font-size: 1.15rem;
+      margin-top: 1.5rem;
+      margin-bottom: 0.4rem;
+      color: var(--text);
+    }
+
+    h4 {
+      font-size: 1rem;
+      margin-top: 1rem;
+      margin-bottom: 0.3rem;
+      color: var(--text-light);
+    }
+
+    p, li {
+      color: var(--text-light);
+      margin-bottom: 0.5rem;
+    }
+
+    ul {
+      padding-left: 1.3rem;
+      margin-bottom: 0.8rem;
+    }
+
+    .intro {
+      font-size: 1.05rem;
+      color: var(--text);
+      margin-bottom: 1.5rem;
+    }
+
+    /* Cards for portfolio items */
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.2rem 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .card h3 {
+      margin-top: 0;
+    }
+
+    .card p {
+      margin-bottom: 0.4rem;
+    }
+
+    .tag {
+      display: inline-block;
+      background: #eef5f0;
+      color: var(--accent);
+      font-size: 0.78rem;
+      padding: 0.15rem 0.55rem;
+      border-radius: 3px;
+      margin-right: 0.3rem;
+      margin-bottom: 0.3rem;
+      font-weight: 500;
+    }
+
+    /* Experience timeline */
+    .job {
+      border-left: 3px solid var(--accent);
+      padding-left: 1.2rem;
+      margin-bottom: 1.8rem;
+    }
+
+    .job-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      flex-wrap: wrap;
+      gap: 0.3rem;
+    }
+
+    .job-header h3 {
+      margin-top: 0;
+    }
+
+    .job-date {
+      font-size: 0.85rem;
+      color: var(--text-light);
+      white-space: nowrap;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      color: var(--text-light);
+      font-size: 0.85rem;
+      border-top: 1px solid var(--border);
+    }
+
+    @media (max-width: 600px) {
+      header h1 { font-size: 1.8rem; }
+      header p.tagline { font-size: 1rem; }
+      main { padding: 1.5rem 1rem 3rem; }
+      .job-header { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Em Turner</h1>
+  <p class="tagline">Senior Technical Writer and Editor</p>
+  <div class="contact-links">
+    <a href="mailto:eturner24@gmail.com">eturner24@gmail.com</a>
+    <a href="https://www.linkedin.com/in/ejturner24/" target="_blank" rel="noopener">LinkedIn</a>
+  </div>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#volunteering">Volunteering</a></li>
+    <li><a href="#writing">Personal Writing</a></li>
+  </ul>
+</nav>
+
+<main>
+
+  <!-- About -->
+  <section id="about">
+    <h2>About</h2>
+    <p class="intro">
+      I am an experienced technical content developer with nearly 9 years of experience, developing technical content such as hardware installation guides, SaaS product guides, quick start guides, user manuals, video scripts, REST API guides, and GraphQL guides for large tech companies.
+    </p>
+    <p>
+      My area of expertise is language and writing. Combining my love of writing and technology, technical writing is a career path that I'm passionate about. I specialize in crafting customer-facing documentation that helps users get started quickly and succeed.
+    </p>
+    <p>
+      My personal strength is building relationships. As a technical writer, I regularly meet with stakeholders and team members to get information. I take the time to build connections, which helps me get information from a wider variety of sources and makes my documentation more complete.
+    </p>
+    <p>
+      Outside of work, I'm a lifelong learner with a love of languages. I speak Japanese and German, and I'm always looking for ways to keep improving. When I'm not studying, you can usually find me working on a textile project, whether that's cross stitch, crochet, or knitting. I find that working with my hands is a great way to recharge after a day of working with words. I'm also a devoted cat person, and my cats are happy to supervise all of the above.
+    </p>
+  </section>
+
+  <!-- Portfolio -->
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+
+    <h3>Red Hat &mdash; OpenShift AI</h3>
+    <div class="card">
+      <p>If you've ever read the model serving documentation for OpenShift AI, you've read my work.</p>
+      <ul>
+        <li><a href="https://docs.redhat.com/en/documentation/red_hat_openshift_ai_self-managed/latest/html/managing_and_monitoring_models/index" target="_blank" rel="noopener">Managing and monitoring models</a></li>
+        <li><a href="https://docs.redhat.com/en/documentation/red_hat_openshift_ai_self-managed/latest/html/deploying_models/index" target="_blank" rel="noopener">Deploying models</a></li>
+        <li><a href="https://docs.redhat.com/en/documentation/red_hat_openshift_ai_self-managed/latest/html/configuring_your_model-serving_platform/index" target="_blank" rel="noopener">Configuring your model serving platform</a></li>
+      </ul>
+      <span class="tag">AsciiDoc</span>
+      <span class="tag">AI/ML</span>
+      <span class="tag">Docs-as-code</span>
+    </div>
+
+    <h3>PayPal Developer</h3>
+    <div class="card">
+      <h4>Package Tracking API Guide</h4>
+      <p>Documentation helping developers add package tracking when creating orders using the PayPal REST API. Collaborated with engineering stakeholders to research the feature and get the right API calls in the right order.</p>
+      <p><a href="https://developer.paypal.com/docs/tracking/orders-api/integrate/" target="_blank" rel="noopener">Integrate package tracking</a></p>
+      <h4>Verify with PayPal</h4>
+      <p><a href="https://developer.paypal.com/limited-release/verify-with-paypal/" target="_blank" rel="noopener">Integrate Verify with PayPal</a></p>
+      <span class="tag">REST API</span>
+      <span class="tag">Markdown</span>
+      <span class="tag">Developer docs</span>
+    </div>
+
+    <h3>VMware &mdash; CloudHealth</h3>
+    <div class="card">
+      <h4>Savings Automator</h4>
+      <p>Documentation for the savings automator feature, managed alongside the cost anomaly detection release under tight deadlines.</p>
+      <p><a href="https://docs.vmware.com/en/VMware-Tanzu-CloudHealth/SaaS/using-and-managing-vmware-tanzu-cloudhealth/GUID-savings-automator.html" target="_blank" rel="noopener">Savings automator documentation</a></p>
+      <h4>Cost Anomaly Detection</h4>
+      <p>Documentation for the cost anomaly detection feature in CloudHealth.</p>
+      <p><a href="https://docs.vmware.com/en/VMware-Tanzu-CloudHealth/SaaS/using-and-managing-vmware-tanzu-cloudhealth/GUID-anomaly-detection.html" target="_blank" rel="noopener">Cost anomaly detection documentation</a></p>
+      <span class="tag">SaaS</span>
+      <span class="tag">Markdown</span>
+      <span class="tag">Cloud</span>
+    </div>
+
+    <h3>Dell EMC &mdash; PowerStore &amp; Unity</h3>
+    <div class="card">
+      <h4>Quick Start Guides</h4>
+      <p>Printed documents that ship with new hardware, outlining the simplest method to get a new system installed and running.</p>
+      <ul>
+        <li><a href="https://downloads.dell.com/manuals/common/pwrstr-qsg_en-us.pdf" target="_blank" rel="noopener">PowerStore Quick Start Guide</a></li>
+        <li><a href="https://www.dellemc.com/en-us/collaterals/unauth/technical-guides-support-information/products/storage/docu94615.pdf" target="_blank" rel="noopener">Unity XT Quick Start Guide</a></li>
+      </ul>
+
+      <h4>PowerStore Quick Start Video</h4>
+      <p>Animated video created during COVID-19 to replace planned live installation footage.</p>
+      <p><a href="https://www.youtube.com/watch?v=yXRBsXAgICU&list=PLbssOJyyvHuW3fklJqJi3jjhgpr0xQdEk" target="_blank" rel="noopener">Watch on YouTube</a></p>
+
+      <h4>Protecting Your Data</h4>
+      <p>Covers data protection technologies including replication, thin cloning, and snapshots.</p>
+      <p><a href="https://www.dell.com/support/manuals/us/en/04/powerstore/pwrstr-protect-data" target="_blank" rel="noopener">Protecting Your Data</a></p>
+
+      <h4>Snapshot Refresh vs. Restore Video</h4>
+      <p>Video clarifying the distinction between snapshot refresh and restore operations.</p>
+      <p><a href="https://www.youtube.com/watch?v=c_9OJ2otSmI&list=PLbssOJyyvHuW3fklJqJi3jjhgpr0xQdEk" target="_blank" rel="noopener">Watch on YouTube</a></p>
+
+      <h4>Installation and Service Guide</h4>
+      <p>Replacement and installation procedures for PowerStore hardware, developed through lab testing and cross-team collaboration.</p>
+      <p><a href="https://www.dell.com/support/manuals/us/en/04/powerstore/pwrstr-isg" target="_blank" rel="noopener">Installation and Service Guide</a></p>
+
+      <h4>Unity XT Hardware Information Guide</h4>
+      <p>Detailed hardware reference for the Unity XT platform.</p>
+      <p><a href="https://www.dellemc.com/en-us/collaterals/unauth/technical-guides-support-information/products/storage/docu94617.pdf" target="_blank" rel="noopener">Unity XT Hardware Information Guide</a></p>
+
+      <span class="tag">DITA XML</span>
+      <span class="tag">Hardware</span>
+      <span class="tag">Video</span>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience">
+    <h2>Experience</h2>
+
+    <div class="job">
+      <div class="job-header">
+        <h3>Senior Technical Writer &mdash; Red Hat</h3>
+        <span class="job-date">May 2024 &ndash; Present</span>
+      </div>
+      <p>Working on OpenShift AI, writing and editing technical documentation in AsciiDoc.</p>
+      <ul>
+        <li>Write and edit technical documentation in AsciiDoc.</li>
+        <li>Work with cross-functional stakeholders to learn about new features and update documentation.</li>
+        <li>Mentor and onboard new writers and summer interns.</li>
+        <li>Incorporate AI tooling into documentation workflows.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <h3>Senior Technical Writer &amp; Editor &mdash; PayPal Developer</h3>
+        <span class="job-date">Sep 2022 &ndash; Feb 2024</span>
+      </div>
+      <p>Served as both senior editor and technical writer for the PayPal REST API documentation portfolio.</p>
+      <ul>
+        <li>Wrote, edited, and reviewed REST API documentation in Markdown.</li>
+        <li>Developed and maintained style guidelines; conducted technical reviews for a team of 5 writers across 3 time zones.</li>
+        <li>Implemented Grammarly, reducing editing time by 25&ndash;50%.</li>
+        <li>Managed a documentation hack week, resolving over 65 bugs.</li>
+        <li>Held weekly editorial office hours and 1:1 mentoring sessions.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <h3>Senior Technical Writer &mdash; CloudHealth by VMware</h3>
+        <span class="job-date">Nov 2020 &ndash; Sep 2022</span>
+      </div>
+      <p>Documented the CloudHealth platform, working closely with globally dispersed teams.</p>
+      <ul>
+        <li>Led migration from proprietary Markdown help center to the centralized VMware documentation platform.</li>
+        <li>Maintained a Gatsby static site generator based on React and JavaScript.</li>
+        <li>Worked with UX designers to review UI messaging for new features.</li>
+        <li>Earned a certificate in UX Writing from the UX Collective.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <h3>Technical Writer 2 &mdash; Dell EMC</h3>
+        <span class="job-date">Oct 2015 &ndash; Oct 2020</span>
+      </div>
+      <p>Wrote hardware-focused technical documentation for Dell EMC Unity and PowerStore storage products.</p>
+      <ul>
+        <li>Authored topic-based content in DITA XML for replacement and installation procedures.</li>
+        <li>Created 6 how-to videos; the most popular received nearly 20k views.</li>
+        <li>Collaborated on unified style guidelines after the Dell&ndash;EMC merger.</li>
+        <li>Attended beta testing to gather customer feedback.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education">
+    <h2>Education</h2>
+    <h3>North Carolina State University</h3>
+    <p><strong>Bachelor of Arts: English &mdash; Letters, Writing and Rhetoric</strong></p>
+    <p>Graduated magna cum laude. GPA: 3.8 overall, 4.0 in major.</p>
+    <p>The concentration focuses on written English in its theoretical, cultural, and practical applications (now renamed Rhetoric and Professional Writing).</p>
+
+    <h4>WKNC College Radio</h4>
+    <p>Volunteered as a DJ and board operator, eventually becoming Production Manager &mdash; recording donor and public service announcements and editing the Eye on the Triangle podcast.</p>
+
+    <h3 style="margin-top: 2rem;">Presentations &amp; Conferences</h3>
+    <ul>
+      <li>Out and Equal Summit 2019 &mdash; Panelist and presenter</li>
+      <li>Out and Equal Summit 2020 &mdash; Panelist</li>
+      <li>VMworld 2021 &mdash; Panelist, <em>The Tweet that Launched a Fleet of Inclusive Language</em></li>
+      <li>Society for Technical Communication 2023 &mdash; Panelist, <em>How to Cross the Street into TechComm</em></li>
+    </ul>
+  </section>
+
+  <!-- Volunteering -->
+  <section id="volunteering">
+    <h2>Volunteering &amp; Community</h2>
+
+    <h3>Diaper Bank of North Carolina</h3>
+    <p>Introduced through Dell's Gives Back program. Quickly became an ambassador, organizing diaper drives and volunteer events regularly.</p>
+
+    <h3>Pride Employee Resource Group</h3>
+    <p>Active in Pride ERGs at both Dell and VMware, supporting LGBTQIA+ employees.</p>
+    <ul>
+      <li><strong>VMware:</strong> Communications co-lead. Created an Executive Sponsor Playbook explaining the role and expectations of executive sponsors.</li>
+      <li><strong>Dell:</strong> North Carolina site lead.</li>
+    </ul>
+  </section>
+
+  <!-- Personal Writing -->
+  <section id="writing">
+    <h2>Personal Writing</h2>
+
+    <div class="card">
+      <h3>The Fight to Preserve a Mainline Final Fantasy Game</h3>
+      <p>A piece written after finishing Final Fantasy XI, exploring the game's high barrier to entry and making the case for why it deserves more players.</p>
+      <p><a href="https://vocal.media/gamers/the-fight-to-preserve-a-mainline-final-fantasy-game" target="_blank" rel="noopener">Read on Vocal</a></p>
+    </div>
+
+    <div class="card">
+      <h3>Processing</h3>
+      <p>A short story written for a Vocal competition, exploring how death and grief impact us all the same regardless of wealth.</p>
+      <p><a href="https://vocal.media/families/processing" target="_blank" rel="noopener">Read on Vocal</a></p>
+    </div>
+
+    <h3 style="margin-top: 1.5rem;">Open Source Contributions</h3>
+    <ul>
+      <li><a href="https://strategywiki.org/wiki/Special:Contributions/CommonWriterE" target="_blank" rel="noopener">StrategyWiki contributions</a> &mdash; Cleaned up Final Fantasy III walkthrough text</li>
+      <li><a href="https://www.bg-wiki.com/ffxi/Special:Contributions/Hiccupz" target="_blank" rel="noopener">BGWiki contributions</a> &mdash; Corrected errors in FFXI guides</li>
+    </ul>
+  </section>
+
+</main>
+
+<footer>
+  <p>Em Turner &middot; <a href="mailto:eturner24@gmail.com">eturner24@gmail.com</a> &middot; <a href="https://www.linkedin.com/in/ejturner24/" target="_blank" rel="noopener">LinkedIn</a></p>
+</footer>
+
+</body>
+</html>
