@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Em's Craft Gallery</title>
+  <style>
+    :root {
+      --text: #3b3b3b;
+      --text-light: #6b6b6b;
+      --accent: #7b2d8e;
+      --accent-light: #a855c7;
+      --bg: #ffffff;
+      --card-bg: #ffffff;
+      --border: #e0d0e8;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.6;
+    }
+
+    header {
+      text-align: left;
+      padding: 3rem 1.5rem 1.5rem;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    header h1 {
+      font-size: 2.2rem;
+      font-weight: 700;
+      color: var(--accent);
+    }
+
+    header p {
+      color: var(--text-light);
+      font-size: 1.05rem;
+      margin-top: 0.4rem;
+    }
+
+    /* Filter nav */
+    .filters {
+      display: flex;
+      justify-content: flex-start;
+      max-width: 1100px;
+      margin: 0 auto;
+      gap: 0.5rem;
+      padding: 1rem 1.5rem;
+      flex-wrap: wrap;
+    }
+
+    .filters button {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 0.4rem 1.2rem;
+      font-size: 0.9rem;
+      color: var(--text-light);
+      cursor: pointer;
+      font-family: inherit;
+      transition: all 0.2s;
+    }
+
+    .filters button:hover,
+    .filters button.active {
+      background: var(--accent);
+      color: #fff;
+      border-color: var(--accent);
+    }
+
+    /* Gallery grid */
+    .gallery {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 1.5rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .gallery-item {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      overflow: hidden;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .gallery-item:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+    }
+
+    .gallery-item .image-placeholder {
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      background: var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--text-light);
+      font-size: 0.85rem;
+    }
+
+    .gallery-item img {
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+      display: block;
+    }
+
+    .gallery-item .caption {
+      padding: 0.8rem 1rem;
+      text-align: left;
+    }
+
+    .gallery-item .caption h3 {
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 0.2rem;
+    }
+
+    .gallery-item .caption span {
+      font-size: 0.8rem;
+      color: var(--accent);
+      font-weight: 500;
+    }
+
+    .commissions {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 1.5rem 1.5rem;
+      text-align: left;
+      border-bottom: 2px solid var(--border);
+    }
+
+    .commissions h2 {
+      font-size: 1.5rem;
+      color: var(--accent);
+      margin-bottom: 0.8rem;
+    }
+
+    .commissions p {
+      color: var(--text-light);
+      margin-bottom: 0.6rem;
+    }
+
+    .commissions a {
+      color: var(--accent);
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    .commissions a:hover {
+      color: var(--accent-light);
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: left;
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 2.5rem 1rem;
+      color: var(--text-light);
+      font-size: 0.85rem;
+    }
+
+    @media (max-width: 600px) {
+      header h1 { font-size: 1.7rem; }
+      .gallery {
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        gap: 1rem;
+        padding: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Em's Craft Gallery</h1>
+  <p>Cross stitch, crochet, knitting, and whatever else I get my hands on.</p>
+</header>
+
+<section class="commissions">
+  <h2>Commissions</h2>
+  <p>Interested in a custom piece? I take commissions for cross stitch projects. I particularly enjoy spritework. Pricing depends on the size, complexity, and materials involved.</p>
+  <p>To get started, send me an email with a description of what you have in mind and I'll get back to you with a quote.</p>
+  <p><a href="mailto:eturner24@gmail.com">eturner24@gmail.com</a></p>
+</section>
+
+<div class="filters">
+  <button class="active" onclick="filter('all')">All</button>
+  <button onclick="filter('cross-stitch')">Cross Stitch</button>
+<button onclick="filter('quilting')">Quilting</button>
+</div>
+
+<div class="gallery">
+
+  <!-- 2026-04-06 -->
+  <div class="gallery-item" data-category="cross-stitch">
+    <img src="images/korok.jpg" alt="Framed pixel cross stitch of Link from Zelda">
+    <div class="caption">
+      <h3>Link</h3>
+      <span>Cross Stitch</span>
+    </div>
+  </div>
+
+  <div class="gallery-item" data-category="cross-stitch">
+    <img src="images/jigglypuff.jpg" alt="Framed pixel cross stitch of Slowpoke">
+    <div class="caption">
+      <h3>Slowpoke</h3>
+      <span>Cross Stitch</span>
+    </div>
+  </div>
+
+  <!-- 2026-04-04 -->
+  <div class="gallery-item" data-category="cross-stitch">
+    <img src="images/potted-plant.jpg" alt="Framed cross stitch of a potted plant with gold detail on the pot">
+    <div class="caption">
+      <h3>Potted Plant</h3>
+      <span>Cross Stitch</span>
+    </div>
+  </div>
+
+  <div class="gallery-item" data-category="cross-stitch">
+    <img src="images/mario.jpg" alt="Framed pixel cross stitch of Mario with felt background scenery">
+    <div class="caption">
+      <h3>Mario</h3>
+      <span>Cross Stitch</span>
+    </div>
+  </div>
+
+  <!-- 2026-04-02 -->
+  <div class="gallery-item" data-category="cross-stitch">
+    <img src="images/cat-keychains.jpg" alt="Two cross stitch keychains featuring a black cat and a tuxedo cat">
+    <div class="caption">
+      <h3>Cat Keychains</h3>
+      <span>Cross Stitch</span>
+    </div>
+  </div>
+
+  <!-- 2026-03-21 -->
+  <div class="gallery-item" data-category="cross-stitch">
+    <img src="images/lapras.jpg" alt="Framed pixel-style cross stitch of Lapras from Pokemon">
+    <div class="caption">
+      <h3>Lapras</h3>
+      <span>Cross Stitch</span>
+    </div>
+  </div>
+
+  <!-- 2026-03-14 -->
+  <div class="gallery-item" data-category="cross-stitch">
+    <img src="images/carousel-horse.jpg" alt="Framed cross stitch of a colorful carousel horse">
+    <div class="caption">
+      <h3>Carousel Horse</h3>
+      <span>Cross Stitch</span>
+    </div>
+  </div>
+
+  <!-- 2024-09-05 -->
+  <div class="gallery-item" data-category="cross-stitch">
+    <img src="images/hang-in-there.jpg" alt="Framed cross stitch of a kitten hanging from a branch with the text Hang in There">
+    <div class="caption">
+      <h3>Hang in There</h3>
+      <span>Cross Stitch</span>
+    </div>
+  </div>
+
+  <div class="gallery-item" data-category="cross-stitch">
+    <img src="images/exdeath.jpg" alt="Framed cross stitch of Exdeath from Final Fantasy V">
+    <div class="caption">
+      <h3>Final Fantasy V Exdeath</h3>
+      <span>Cross Stitch</span>
+    </div>
+  </div>
+
+  <!-- 2024-08-09 -->
+  <div class="gallery-item" data-category="cross-stitch">
+    <img src="images/lakeside-cabin.jpg" alt="Framed cross stitch of a lakeside cabin at sunset">
+    <div class="caption">
+      <h3>Lakeside Cabin</h3>
+      <span>Cross Stitch</span>
+    </div>
+  </div>
+
+  <!-- 2024-05-31 -->
+  <div class="gallery-item" data-category="quilting">
+    <img src="images/tshirt-quilt.jpg" alt="Large patchwork quilt made from gaming and anime t-shirts">
+    <div class="caption">
+      <h3>T-Shirt Quilt</h3>
+      <span>Quilting</span>
+    </div>
+  </div>
+
+  <!-- 2023-07-14 -->
+  <div class="gallery-item" data-category="cross-stitch">
+    <img src="images/in-this-home.jpg" alt="Framed cross stitch with funny house rules on burlap">
+    <div class="caption">
+      <h3>In This Home</h3>
+      <span>Cross Stitch</span>
+    </div>
+  </div>
+
+  <!-- 2023-05-10 -->
+  <div class="gallery-item" data-category="cross-stitch">
+    <img src="images/tropical-fish.jpg" alt="Tall cross stitch panel of colorful tropical fish">
+    <div class="caption">
+      <h3>Tropical Fish</h3>
+      <span>Cross Stitch</span>
+    </div>
+  </div>
+
+  <!-- 2023-04-13 -->
+  <div class="gallery-item" data-category="cross-stitch">
+    <img src="images/summon-demons.jpg" alt="Framed gothic cross stitch reading Please Don't Summon Demons in the Bathroom">
+    <div class="caption">
+      <h3>Please Don't Summon Demons in the Bathroom</h3>
+      <span>Cross Stitch</span>
+    </div>
+  </div>
+
+  <!-- 2022-08-22 -->
+  <div class="gallery-item" data-category="cross-stitch">
+    <img src="images/tired-cats.jpg" alt="Cross stitch of three sleeping cats with text Tired but never of you">
+    <div class="caption">
+      <h3>Tired, but Never of You</h3>
+      <span>Cross Stitch</span>
+    </div>
+  </div>
+
+  <!-- 2023-06-16 -->
+  <div class="gallery-item" data-category="cross-stitch">
+    <img src="images/dark-knight.jpg" alt="Pixel cross stitch of a custom FFXIV Red Mage in FFVI style">
+    <div class="caption">
+      <h3>Custom FFXIV Red Mage in FFVI Style</h3>
+      <span>Cross Stitch</span>
+    </div>
+  </div>
+
+  <!-- 2022-06-02 -->
+  <div class="gallery-item" data-category="cross-stitch">
+    <img src="images/ff-sprite.jpg" alt="Pixel cross stitch of a custom FFXIV White Mage in FFVI style">
+    <div class="caption">
+      <h3>Custom FFXIV White Mage in FFVI Style</h3>
+      <span>Cross Stitch</span>
+    </div>
+  </div>
+
+  <!-- 2022-05-28 -->
+  <div class="gallery-item" data-category="cross-stitch">
+    <img src="images/spill-the-tea.jpg" alt="Framed cross stitch of a teapot with text Spill the Tea">
+    <div class="caption">
+      <h3>Spill the Tea</h3>
+      <span>Cross Stitch</span>
+    </div>
+  </div>
+
+  <!-- 2022-05-25 -->
+  <div class="gallery-item" data-category="cross-stitch">
+    <img src="images/angel-framed.jpg" alt="Framed cross stitch of an angel carrying a wreath">
+    <div class="caption">
+      <h3>Angel with Wreath</h3>
+      <span>Cross Stitch</span>
+    </div>
+  </div>
+
+  <!-- 2021-04-12 -->
+  <div class="gallery-item" data-category="cross-stitch">
+    <img src="images/final-fantasy.jpg" alt="Framed cross stitch of the Final Fantasy title screen">
+    <div class="caption">
+      <h3>Final Fantasy Title Screen</h3>
+      <span>Cross Stitch</span>
+    </div>
+  </div>
+
+  <!-- 2021-01-08 -->
+  <div class="gallery-item" data-category="cross-stitch">
+    <img src="images/giants-causeway.jpg" alt="Cross stitch of a golden eagle">
+    <div class="caption">
+      <h3>Golden Eagle</h3>
+      <span>Cross Stitch</span>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  <p>Em Turner's Craft Gallery</p>
+</footer>
+
+<script>
+  function filter(category) {
+    const items = document.querySelectorAll('.gallery-item');
+    const buttons = document.querySelectorAll('.filters button');
+
+    buttons.forEach(btn => btn.classList.remove('active'));
+    event.target.classList.add('active');
+
+    items.forEach(item => {
+      if (category === 'all' || item.dataset.category === category) {
+        item.style.display = '';
+      } else {
+        item.style.display = 'none';
+      }
+    });
+  }
+</script>
+
+</body>
+</html>
