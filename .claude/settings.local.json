@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cp /Users/eturner/Downloads/Photos-3-001/PXL_20260404_134903588.RAW-01.COVER.jpg mario.jpg)",
+      "Bash(cp /Users/eturner/Downloads/Photos-3-001/PXL_20240905_142238986.RAW-01.COVER.jpg exdeath.jpg)",
+      "Bash(cp /Users/eturner/Downloads/Photos-3-001/PXL_20240809_183305917.RAW-01.COVER.jpg lakeside-cabin.jpg)",
+      "Bash(cp /Users/eturner/Downloads/Photos-3-001/PXL_20240531_122911349.RAW-01.COVER.jpg tshirt-quilt.jpg)",
+      "Bash(cp /Users/eturner/Downloads/Photos-3-001/PXL_20230714_205414388.jpg in-this-home.jpg)"
+    ]
+  }
+}
