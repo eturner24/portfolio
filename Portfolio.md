@@ -11,6 +11,28 @@ I work on OpenShift AI. If you've ever read the model serving documentation, you
 - [Deploying models](https://docs.redhat.com/en/documentation/red_hat_openshift_ai_self-managed/3.5/html/deploying_models/index)
 - [Configuring your model serving platform](https://docs.redhat.com/en/documentation/red_hat_openshift_ai_self-managed/3.5/html/configuring_your_model-serving_platform/index)
 
+### AI skills
+
+I created a number of skills to automate the daily grind of my job so I could focus my energy on what excites me. My favorite skill is my daily checkin skill. 
+
+I run it every morning and it checks what's changed since yesterday and compares those updates with my personal dashboard (more on that in a minute!). It looks for changed assignments, release dates, ticket status, dependencies, repository activity, and important email. It then presents the report to me, asks for any additions, and then writes the changes to file.
+
+Put simply, the skill helps me answer three questions:
+- What changed since yesterday?
+- What needs my attention?
+- What work should I record?
+
+Then, I put that information into a dashboard so I can take hard data to my leadership if needed. 
+The dashboard provides visibility into my day-to-day work, tracking:
+- Current assignments, release placement, status, supporting notes, completed work, and historical records.
+- My to-do list, which shows open, completed, and pending tasks, sorted by release
+- A summary of accomplishments by quarter for performance discussions.
+- Release summaries, which show completed work and release activity by year.
+
+The dashboard combines formal assignments with work that does not have a ticket. The daily check-in skill keeps the dashboard synchronized with Jira, email, repository activity, and user-reported accomplishments.
+
+Want to try it out? [Get the skill here.](https://github.com/eturner24/ai-skills)
+
 ## PayPal
 
 I was primarily an editor at PayPal, but I continued to work as a writer whenever possible to ensure I kept my writing skills up to snuff. 
