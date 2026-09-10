@@ -6,9 +6,10 @@ My portfolio contains a selection of the projects I have worked on during my car
 
 I work on OpenShift AI. If you've ever read the model serving documentation, you've read my work. 
 
-- [Managing and monitoring models](https://docs.redhat.com/en/documentation/red_hat_openshift_ai_self-managed/latest/html/managing_and_monitoring_models/index)
-- [Deploying models](https://docs.redhat.com/en/documentation/red_hat_openshift_ai_self-managed/latest/html/deploying_models/index)
-- [Configuring your model serving platform](https://docs.redhat.com/en/documentation/red_hat_openshift_ai_self-managed/latest/html/configuring_your_model-serving_platform/index)
+- [Experimenting with models in the gen AI playground](https://docs.redhat.com/en/documentation/red_hat_openshift_ai_self-managed/3.5/html/experimenting_with_models_in_the_gen_ai_playground/index)
+- [Managing and monitoring models](https://docs.redhat.com/en/documentation/red_hat_openshift_ai_self-managed/3.5/html/managing_and_monitoring_models/index)
+- [Deploying models](https://docs.redhat.com/en/documentation/red_hat_openshift_ai_self-managed/3.5/html/deploying_models/index)
+- [Configuring your model serving platform](https://docs.redhat.com/en/documentation/red_hat_openshift_ai_self-managed/3.5/html/configuring_your_model-serving_platform/index)
 
 ## PayPal
 

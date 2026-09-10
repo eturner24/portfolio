@@ -50,15 +50,39 @@ One of my passions is education, and there is no easier way to educate than to d
 
 ## Personal
 
-I'm always looking for ways to keep my writing skills sharp, even while enjoying my hobbies. My favorite way of giving back is contributing to online strategy guides or open source strategy guide wikis so I can help guide others through my favorite games.
+I'm always looking for ways to keep my writing skills sharp, even while enjoying my hobbies. 
 
-### StrategyWiki
+### Technology
+
+- In 2009, I built my first computer with spare parts from a friends' old PC.
+- In 2020, I built a high-end gaming PC centered around an GeForce RTX 3080. Want to see my build? See the [part list here](https://pcpartpicker.com/list/fFbDCz).
+- In 2026, I began using Linux for full-time work and gaming.
+- Also in 2026, I started experimenting with running local LLMs on my laptop such as Aider, OpenClaw, and Ollama.
+
+### Languages, culture, and travel
+
+I studied German for 4 years in high school and gained enough language skill to navigate a trip to Germany in 2008 without translation. 
+
+I've been studying Japanese independently for over 10 years and am between [JLPT N4 and N4 in proficiency](https://www.jlpt.jp/e/about/levelsummary.html). 
+Some resources I used to learn include the Genki text book series, Rosetta Stone, Duolingo, and preparatory course material for the JLPT tests. 
+In 2024, I took a trip to Japan and enjoyed testing my language proficiency in the real world, successfully navigating checking into hotels, ordering at restaurants, and paying for purchases in Japanese.
+
+Next, I'd like to learn more Spanish. 
+I have a very elementary knowledge of Spanish from my primary education, but would like to develop that knowledge further so I can participate in conversations. 
+I'm developing my skills casually through Duolingo and watching Spanish-language media.
+I'm also planning on taking a trip to Spain in the near future.
+
+### Wiki contributions
+
+My favorite way of giving back is contributing to online strategy guides or open source strategy guide wikis so I can help guide others through my favorite games.
+
+#### StrategyWiki
 
 While playing through older Final Fantasy games, I found myself getting stuck often, but the guides that were available online were incomplete or unclear. Starting with Final Fantasy III, I cleaned up and clarified walkthrough text.
 
 Check out [my contributions to StrategyWiki](https://strategywiki.org/wiki/Special:Contributions/CommonWriterE).
 
-### BGWiki
+#### BGWiki
 
 During my playthrough of Final Fantasy XI in 2020 I relied heavily on the FFXI-specific BGWiki for information and help. I found and corrected minor errors as I went through the game.
 
