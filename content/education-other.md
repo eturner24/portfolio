@@ -22,8 +22,6 @@ I enjoy getting involved in my local community, and have volunteered with multip
 
 When I worked at Dell, I was introduced to the Diaper Bank of NC through our internal Gives Back program. My first volunteer experience was so positive, that I quickly became an ambassador for the Diaper Bank, organizing diaper drives and volunteer events with them regularly.
 
-Since being laid off in early 2024, I have spent more time volunteering at the Diaper Bank. I try to go at least once a week as a way to put my extra time to good use.
-
 ## Pride employee resource group (ERG)
 
 During my time at both Dell and VMware, I was heavily involved with the Pride employee resource group to help LGBTQIA+ employees feel welcome and supported at work. 
@@ -63,7 +61,7 @@ I'm always looking for ways to keep my writing skills sharp, even while enjoying
 
 I studied German for 4 years in high school and gained enough language skill to navigate a trip to Germany in 2008 without translation. 
 
-I've been studying Japanese independently for over 10 years and am between [JLPT N4 and N4 in proficiency](https://www.jlpt.jp/e/about/levelsummary.html). 
+I've been studying Japanese independently for over 10 years and am between [JLPT N5 and N4 in proficiency](https://www.jlpt.jp/e/about/levelsummary.html). 
 Some resources I used to learn include the Genki text book series, Rosetta Stone, Duolingo, and preparatory course material for the JLPT tests. 
 In 2024, I took a trip to Japan and enjoyed testing my language proficiency in the real world, successfully navigating checking into hotels, ordering at restaurants, and paying for purchases in Japanese.
 
