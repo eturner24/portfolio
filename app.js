@@ -32,10 +32,7 @@ class MarkdownContentLoader {
     await Promise.all([
       this.render("about.md", "about"),
       this.render("portfolio.md", "portfolio"),
-      this.render("experience.md", "experience"),
-      this.render("education.md", "education"),
-      this.render("volunteering.md", "volunteering"),
-      this.render("writing.md", "writing")
+      this.render("education-other.md", "education"),
     ]);
   }
 }
@@ -44,10 +41,7 @@ function renderNavigation() {
   const navigation = [
     ["About", "about"],
     ["Portfolio", "portfolio"],
-    ["Experience", "experience"],
-    ["Education", "education"],
-    ["Volunteering", "volunteering"],
-    ["Personal Writing", "writing"]
+    ["Education and Other", "education"],
   ];
 
   document.querySelector("#navigation").innerHTML = navigation
