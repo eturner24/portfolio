@@ -1,9 +1,7 @@
 # Em Turner - Senior Technical Writer and Editor
 
-Thanks for taking a look at my portfolio. You can learn more about me in the following locations:
-- [Experience](resume.md)
-- [Education and other qualifications](education-other.md)
-- [Portfolio](Portfolio.md)
+Thanks for taking a look at my portfolio. 
+Please check out my [page on GitHub Pages](https://eturner24.github.io/portfolio/).
 
 ## Contact info
 
