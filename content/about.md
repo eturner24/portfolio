@@ -10,6 +10,16 @@ I like creating resources to help others on my team, and will create a guide if 
 
 Outside of work, I’m usually playing a video game, thrift shopping, upcycling my thrift finds, learning languages, rock climbing, practicing yoga, or being supervised by my cats.
 
+## Core technologies
+
+Claude/Claude Code · OpenAI Codex · Cursor · Ollama · Aider · Git · GitHub · GitLab · Jira · REST APIs · OpenAPI · JSON · YAML · XML · Markdown · AsciiDoc · DITA · Documentation-as-code workflows · API reference generators · Content management systems · Confluence · GitHub Pages · Adobe FrameMaker · SDL Publication Manager · Grammarly
+
+## Operating systems
+
+- Linux
+- macOS
+- Windows
+
 
 ## Senior Technical Writer, Red Hat (May 2024 - current)
 
