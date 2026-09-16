@@ -28,13 +28,27 @@ class MarkdownContentLoader {
     element.innerHTML = marked.parse(markdown);
   }
 
-  async renderAll() {
-    await Promise.all([
-      this.render("about.md", "about"),
-      this.render("portfolio.md", "portfolio"),
-      this.render("education-other.md", "education"),
-    ]);
-  }
+	async renderAll() {
+	  const files = [
+		["about.md", "about"],
+		["portfolio.md", "portfolio"],
+		["education-other.md", "education"],
+	  ];
+
+	  for (const [filename, elementId] of files) {
+		try {
+		  await this.render(filename, elementId);
+		} catch (error) {
+		  console.error(`${filename} failed:`, error);
+
+		  document.querySelector(`#${elementId}`).innerHTML = `
+			<p class="error">
+			  Could not load ${filename}.
+			</p>
+		  `;
+		}
+	  }
+	}
 }
 
 function renderNavigation() {
@@ -77,16 +91,19 @@ async function initializeSite() {
   const loader = new MarkdownContentLoader("content");
 
   try {
+    console.log("Starting content loader...");
     await loader.renderAll();
+    console.log("All content loaded successfully.");
   } catch (error) {
-    console.error(error);
+    console.error("Portfolio loading failed:", error);
 
     document.querySelector("main").innerHTML = `
-      <p class="error">
-        Some portfolio content could not be loaded.
+      <p style="color: red; padding: 2rem;">
+        Content failed to load: ${error.message}
       </p>
     `;
   }
 }
 
 initializeSite();
+
