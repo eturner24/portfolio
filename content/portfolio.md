@@ -4,12 +4,18 @@ My portfolio contains a selection of the projects I have worked on during my car
 
 ## Red Hat
 
-I work on OpenShift AI. If you've ever read the model serving documentation, you've read my work. 
+I work on OpenShift AI. I've been working on the Gen AI playground documentation, which helps customers set up a demo area to test and compare models. Here are some of the docs I've written:
 
-- [Experimenting with models in the gen AI playground](https://docs.redhat.com/en/documentation/red_hat_openshift_ai_self-managed/3.5/html/experimenting_with_models_in_the_gen_ai_playground/index)
+- [How model experimentation accelerates model selection](https://docs.redhat.com/en/documentation/red_hat_openshift_ai_self-managed/3.5/html/experimenting_with_models_in_the_gen_ai_playground/how-model-experimentation-accelerates-model-selection_rhoai-user)
+- [How multimodal input extends model evaluation](https://docs.redhat.com/en/documentation/red_hat_openshift_ai_self-managed/3.5/html/experimenting_with_models_in_the_gen_ai_playground/how-multimodal-input-extends-model-evaluation_rhoai-user)
+
+Previously, I worked on model serving documentation:
+
+
 - [Managing and monitoring models](https://docs.redhat.com/en/documentation/red_hat_openshift_ai_self-managed/3.5/html/managing_and_monitoring_models/index)
 - [Deploying models](https://docs.redhat.com/en/documentation/red_hat_openshift_ai_self-managed/3.5/html/deploying_models/index)
 - [Configuring your model serving platform](https://docs.redhat.com/en/documentation/red_hat_openshift_ai_self-managed/3.5/html/configuring_your_model-serving_platform/index)
+
 
 ### AI skills
 
@@ -28,6 +34,7 @@ The dashboard provides visibility into my day-to-day work, tracking:
 - My to-do list, which shows open, completed, and pending tasks, sorted by release
 - A summary of accomplishments by quarter for performance discussions.
 - Release summaries, which show completed work and release activity by year.
+- Summaries of important deadlines and how far away those deadlines are.
 
 The dashboard combines formal assignments with work that does not have a ticket. The daily check-in skill keeps the dashboard synchronized with Jira, email, repository activity, and user-reported accomplishments.
 
@@ -53,13 +60,17 @@ I wrote documentation to help add the option to track packages when creating an 
 
 Technical documentation to accompany the savings automator feature in CloudHealth. The release of this feature was around the same time as the cost anomaly detection release, so I had to manage tight deadlines to get both done in time. Worked closely with the team developing this feature to research, draft, review, and publish documentation.
 
+*Note: VMware was acquired by Broadcom so the URL leads to the new docs site post-merger. Some of this content has also been updated since I originally wrote it.*
+
 [Savings automator documentation](https://docs.vmware.com/en/VMware-Tanzu-CloudHealth/SaaS/using-and-managing-vmware-tanzu-cloudhealth/GUID-savings-automator.html)
 
 ### Cost anomaly detection 
 
 Technical documentation to accompany the cost anomaly detection feature in CloudHealth. The release of this feature was around the same time as the savings automator release, so I had to manage tight deadlines to get both done in time. Worked closely with the team developing this feature to research, draft, review, and publish documentation.
 
-[Cost anomaly detection documentation](https://docs.vmware.com/en/VMware-Tanzu-CloudHealth/SaaS/using-and-managing-vmware-tanzu-cloudhealth/GUID-anomaly-detection.html)
+*Note: VMware was acquired by Broadcom so the URL leads to the new docs site post-merger. Some of this content has also been updated since I originally wrote it.*
+
+[Cost anomaly detection documentation](https://techdocs.broadcom.com/us/en/ca-enterprise-software/it-operations-management/cloudhealth/saas/index/using-and-managing-tanzu-cloudhealth-using-and-managing-index/using-and-managing-tanzu-cloudhealth-anomaly-detection.html)
 
 ## Dell EMC
 
