@@ -2,6 +2,8 @@
 
 My portfolio contains a selection of the projects I have worked on during my career and the finished documentation associated with each project.
 
+For your convenience, I have provided links to live content from the company's documentation sites. Some of this content, especially older content, has also been updated since I originally wrote it. I have local copies of the last edits I made to these docs. Unedited writing samples are available on request.
+
 ## Red Hat
 
 I work on OpenShift AI. I've been working on the Gen AI playground documentation, which helps customers set up a demo area to test and compare models. Here are some of the docs I've written:
@@ -60,7 +62,7 @@ I wrote documentation to help add the option to track packages when creating an 
 
 Technical documentation to accompany the savings automator feature in CloudHealth. The release of this feature was around the same time as the cost anomaly detection release, so I had to manage tight deadlines to get both done in time. Worked closely with the team developing this feature to research, draft, review, and publish documentation.
 
-*Note: VMware was acquired by Broadcom so the URL leads to the new docs site post-merger. Some of this content has also been updated since I originally wrote it.*
+*Note: VMware was acquired by Broadcom so the URL leads to the new docs site post-merger.*
 
 [Savings automator documentation](https://docs.vmware.com/en/VMware-Tanzu-CloudHealth/SaaS/using-and-managing-vmware-tanzu-cloudhealth/GUID-savings-automator.html)
 
@@ -68,7 +70,7 @@ Technical documentation to accompany the savings automator feature in CloudHealt
 
 Technical documentation to accompany the cost anomaly detection feature in CloudHealth. The release of this feature was around the same time as the savings automator release, so I had to manage tight deadlines to get both done in time. Worked closely with the team developing this feature to research, draft, review, and publish documentation.
 
-*Note: VMware was acquired by Broadcom so the URL leads to the new docs site post-merger. Some of this content has also been updated since I originally wrote it.*
+*Note: VMware was acquired by Broadcom so the URL leads to the new docs site post-merger.*
 
 [Cost anomaly detection documentation](https://techdocs.broadcom.com/us/en/ca-enterprise-software/it-operations-management/cloudhealth/saas/index/using-and-managing-tanzu-cloudhealth-using-and-managing-index/using-and-managing-tanzu-cloudhealth-anomaly-detection.html)
 
